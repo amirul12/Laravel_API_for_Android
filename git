@@ -1,0 +1,71 @@
+[33mcommit 4ee8bcfd237eae5612e6b645e6b0fb9a1eba748c[m
+Author: amirul12 <amirul.csejust@gmail.com>
+Date:   Mon Jan 8 08:25:06 2018 +0600
+
+    passport installed
+
+[33mcommit 250077742daf2856b5cd55d9d462b6ac1dabd95c[m
+Author: amirul12 <amirul.csejust@gmail.com>
+Date:   Sun Jan 7 09:36:37 2018 +0600
+
+    Review Resources and paginate
+
+[33mcommit dc4b1f946bddab85e49f622b2e384f94bdf48cd0[m
+Author: amirul12 <amirul.csejust@gmail.com>
+Date:   Sat Jan 6 15:46:51 2018 +0600
+
+    Product Collection Resource -work in show products
+
+[33mcommit 4bf19be09006f6489a8d03b8449e23d41f8b481f[m
+Author: amirul12 <amirul.csejust@gmail.com>
+Date:   Sat Jan 6 09:43:43 2018 +0600
+
+    Modified product details rating and stock
+
+[33mcommit 389a1544ec6f122be52b04d224fe80ee0ec45a3a[m
+Author: amirul12 <amirul.csejust@gmail.com>
+Date:   Sat Jan 6 08:12:32 2018 +0600
+
+    Product Resource Created
+
+[33mcommit f2de5ca071c5838bccfb6c20536cd7da218d8068[m
+Author: amirul12 <amirul.csejust@gmail.com>
+Date:   Sat Jan 6 07:05:32 2018 +0600
+
+    Relationship created
+
+[33mcommit 6e7f3340cdf688a8402588e79223e62bab81979d[m
+Author: amirul12 <amirul.csejust@gmail.com>
+Date:   Fri Jan 5 22:03:59 2018 +0600
+
+    sedding database for product and review
+
+[33mcommit 7c3712614b58637492c0390f36f1771cb7c4f4ba[m
+Author: amirul12 <amirul.csejust@gmail.com>
+Date:   Fri Jan 5 20:46:45 2018 +0600
+
+    DB are added after migration
+
+[33mcommit e7c8ef2822c79e68535511a542c7fc3dd9233fcf[m
+Author: amirul12 <amirul.csejust@gmail.com>
+Date:   Fri Jan 5 20:39:11 2018 +0600
+
+    migration created for products and reviews
+
+[33mcommit dfbcecdbe04bd6f2cd04c22ea8a14535da3dd704[m
+Author: amirul12 <amirul.csejust@gmail.com>
+Date:   Fri Jan 5 19:34:20 2018 +0600
+
+    create model -a
+
+[33mcommit b894a6bda3a1ac12800d3a09398b24cc3f557fb9[m
+Author: amirul12 <amirul.csejust@gmail.com>
+Date:   Fri Jan 5 15:13:15 2018 +0600
+
+    vendor added
+
+[33mcommit d15bca0268a4e3e73ca7f025524abf31883150a3[m
+Author: amirul12 <amirul.csejust@gmail.com>
+Date:   Fri Jan 5 15:11:12 2018 +0600
+
+    installed laravel from internet
