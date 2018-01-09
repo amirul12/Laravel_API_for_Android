@@ -13,20 +13,46 @@ Trait ExceptionTrait
 	public function apiException($request, $e)
 	{
 
-		if ($e instanceof ModelNotFoundException) {
-                  return response()->json([
+		if ($this->isModel($e)) {
+                  
+                  return $this->modelResponse($e);
+             }
+
+             if ($this->isHttp($e)) {
+                 return $this->httpNotFound($e);
+             }
+		 
+	}
+
+
+
+
+
+
+	protected function isModel($e)
+	{
+		 return $e instanceof ModelNotFoundException;
+	}
+
+	protected function isHttp($e)
+	{
+		return $e instanceof NotFoundHttpException;
+	}
+
+	protected function modelResponse($e)
+	{
+		return response()->json([
                     'error' => 'Product Model Not Found'
 
                   ],Response::HTTP_NOT_FOUND);
-             }
-
-             if ($e instanceof NotFoundHttpException) {
-                  return response()->json([
+		 
+	}
+	protected function httpNotFound($e)
+	{
+		 return response()->json([
                     'error' => 'Route Not Found'
 
                   ],Response::HTTP_NOT_FOUND);
-             }
-		 
 	}
 }
 
