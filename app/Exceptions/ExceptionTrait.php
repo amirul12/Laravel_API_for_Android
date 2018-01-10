@@ -21,6 +21,7 @@ Trait ExceptionTrait
              if ($this->isHttp($e)) {
                  return $this->httpNotFound($e);
              }
+             return parent::render($request, $e);
 		 
 	}
 
